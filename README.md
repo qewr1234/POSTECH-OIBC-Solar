@@ -19,13 +19,13 @@ GC_atmp3b     40%
 FINAL Ensemble
 ```
 
-\[
-\hat{y}_{final}
+$$
+\hat{y}_{\mathrm{final}}
 =
-0.60\hat{y}_{GC\_final}
+0.60\hat{y}_{\mathrm{GC\_final}}
 +
-0.40\hat{y}_{GC\_atmp3b}
-\]
+0.40\hat{y}_{\mathrm{GC\_atmp3b}}
+$$
 
 두 모델은 전체적으로 높은 상관을 보이지만, 고일사량 구간과 일부 기상 조건에서 예측 편차가 발생합니다. 최종 제출에서는 이를 활용해 `GC_final`을 중심 모델로 두고 `GC_atmp3b`를 40% 결합했습니다.
 
